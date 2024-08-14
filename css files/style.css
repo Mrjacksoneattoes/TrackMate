@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing : 'antialiased';
+    font-weight: 400;
+    background: linear-gradient(to bottom, #000000 70%, #2b0a3d);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  scroll-behavior: auto;
+}
+header{
+    margin-top: 2%;
+    margin-left: 1%;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 7%;
+    list-style: none;
+    margin-right: 5%;
+    
+}
+.navbar li{
+    margin-right: 40px;
+    cursor: pointer;
+    margin-top: 0.75%;
+}
+#faq{
+    transition: color 0.3s, transform .1s;
+}
+#faq:hover{
+    color: #A238FF;
+}
+#connexion{
+    color: white;
+   
+}
+#lginIMA{
+    filter: invert(100%);
+}
+#connexion:hover{
+    color: rgb(198, 190, 238);
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+#title{
+    font-size: 25px;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    cursor: pointer;
+   
+}
+#btn-1{
+    padding: 15%;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: #A238FF;
+    color: white;
+    box-shadow: 0 0 30px #A238FF;
+    cursor: pointer;
+    border: 0;
+    letter-spacing: 2px;
+    width: 175%;
+    text-shadow: 0 0 10px white;
+    transition: background-color 0.5s, color 0.5s, transform .3s;
+    outline: none;
+    overflow: hidden;
+    
+}
+#btn-1:hover{
+    background-color: white;
+    color: black;
+    
+}
+.container{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    line-height: 80px;
+}
+
+#boost{
+    font-size: 25px;
+    letter-spacing: 1px;
+    opacity: 90%;
+ 
+}
+#nomwatch{
+    font-size: 75px;
+    font-weight: 525;
+}
+#bracelet{
+    font-size: 25px;
+    letter-spacing: 1px;
+    opacity: 90%;
+}
+.btn-2{
+    padding: 3%;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #A238FF;
+    color: white;
+    border: 0;
+    width: 25%;
+    text-shadow: 0 0 10px white;
+    box-shadow: 0 0 30px #A238FF;
+    transition: background-color 0.5s, color 0.5s, transform .1s ease-in-out;
+    outline: none;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+.btn-2:hover{
+    color: #000000;
+    background-color: #fff;
+}
+.btn-2:active{
+    transform: translateY(5px);
+}
+#product{
+    position: absolute;
+    top: -20%;
+    left: 110%;
+}
+.container2{
+    position: absolute;
+    top: 105%;
+    left: 20%;
+    mask-image: linear-gradient(to left, rgba(255,0,0,1), rgba(255,255,255,0));
+    scroll-behavior: smooth;
+}
+.athlete{
+    mask-image: linear-gradient(to top, rgba(255,0,0,1) 80%, rgba(255,255,255,0));
+}
+#watchgood{
+    position: absolute;
+    top: 130%;
+    left: 65%;
+}
+.container3{
+    position: absolute;
+    top: 125%;
+    left: 15%;
+}
+.capteur{
+    display: flex;
+    margin-top: 5%;
+}
+#minititle{
+    margin-top: 5%;
+    position: relative;
+    left: 7%;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+.paraCapteur{
+    font-size: 50px;
+    margin-top: 10%;
+    letter-spacing: 3px;
+    line-height: 65px;
+    font-weight: 500;
+}
+.paraCapteur2{
+    margin-top: 10%;
+    line-height: 25px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 14px;
+    opacity: 80%;
+}
+#wiwi{
+    position: absolute;
+    top: 225%;
+    left: 10%;
+}
+.systeme{
+    position: absolute;
+    top: 210%;
+    left: 45%;
+    width: 30%;
+    padding: 5%;
+    height: 50%;
+    width: 100%;
+    background-color: #1e1c1c;
+    mask-image: linear-gradient(to right, rgba(255,0,0,1), rgba(255,255,255,0));
+}
+.systeme1{
+    display: flex;
+    
+  
+}
+#minititle2{
+    margin-top: 1.1%;
+    margin-left: 2%;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: 14px;
+
+}
+
+.system2{
+    margin-top: 2%;
+    font-size: 50px;
+    position: relative;
+    left: 2%;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.system3{
+    margin-top: 3%;
+    position: relative;
+    left: 3%;
+    font-weight: lighter;
+    line-height: 30px;
+    opacity: 80%;
+
+
+}
+.container5{
+    position: absolute;
+    top: 285%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    line-height: 30px;
+    padding: 3%;
+    background-color: #1e1c1c;
+}
+#miniTitle{
+    font-size: 50px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+
+}
+#modification{
+    opacity: 90%;
+    line-height: 27px;
+}
+.seriesOfWatch{
+    display: flex;
+    justify-content: center;
+}
+#eyeI{
+    filter: drop-shadow( 0 0 30px #A238FF);
+}
+.btn-1{
+    padding: 1%;
+    font-size: 17px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #A238FF;
+    color: white;
+    text-shadow: 0 0 10px white;
+    filter: drop-shadow(0 0 30px #A238FF);
+    width: 15%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn-1:hover{
+    color: black;
+    background-color: white;
+
+}

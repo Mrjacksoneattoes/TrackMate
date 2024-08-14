@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: Madefor, Helvetica Neue, Helvetica, Arial, メイリオ, meiryo, ヒラギノ角ゴ pro w3, hiragino kaku gothic pro, sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing : 'antialiased';
+    font-weight: 400;
+    background-color: #1e1c1c;
+  color: white;
+  scroll-behavior: auto;
+}
+header{
+    margin-top: 2%;
+    margin-left: 1%;
+  
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 7%;
+    list-style: none;
+    margin-right: 5%;
+    
+}
+.navbar li{
+    margin-right: 40px;
+    cursor: pointer;
+    margin-top: 0.75%;
+}
+#faq{
+    transition: color 0.3s, transform .1s;
+}
+#faq:hover{
+    color: #A238FF;
+}
+#connexion{
+    color: white;
+   
+}
+#lginIMA{
+    filter: invert(100%);
+}
+#connexion:hover{
+    color: rgb(198, 190, 238);
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+#title{
+    font-size: 25px;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    cursor: pointer;
+   
+}
+#btn-1{
+    padding: 15%;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color: #A238FF;
+    color: white;
+    box-shadow: 0 0 30px #A238FF;
+    cursor: pointer;
+    border: 0;
+    letter-spacing: 2px;
+    width: 175%;
+    text-shadow: 0 0 10px white;
+    transition: background-color 0.5s, color 0.5s, transform .3s;
+    outline: none;
+    overflow: hidden;
+    
+}
+#btn-1:hover{
+    background-color: white;
+    color: black;
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    cursor:crosshair;
+}
+.container1{
+    position: absolute;
+    top: 85%;
+    left: 27%;
+    border: 2px solid grey;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.random{
+    position: absolute;
+    top: 95%;
+    font-size: 13px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    left: 25%;
+    line-height: 24px;
+}
+.container2{
+    position: absolute;
+    left: 65%;
+    top: 35%;
+}
+#titleproduit{
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+#version{
+    font-weight: lighter;
+    font-size: 12px;
+    letter-spacing: 1px;
+    opacity: 95%;
+}
+.price{
+    margin-top: 7%;
+    font-size: 20px;
+}
+.couleurs{
+    margin-top: 5%;
+    display: flex;
+   
+}
+.couleurs div{
+    margin-right: 5%;
+}
+.blanche{
+    border-radius: 50%;
+    background-color: white;
+    padding: 3%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.noir{
+    border-radius: 50%;
+    background-color: black;
+    padding: 3%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.bleu{
+    border-radius: 50%;
+    background-color: blue;
+    padding: 3%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.violet{
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 3%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.turquoise{
+    border-radius: 50%;
+    background-color: turquoise;
+    padding: 3%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#mini{
+    margin-bottom: 8%;
+    margin-top: 5%;
+    font-weight: lighter;
+}
+#titledeinpputlol{
+    margin-top: 5%;
+    font-weight: lighter;
+    font-size: 17px;
+}
+#quantité{
+    margin-top: 5%;
+    outline: none;
+    padding: 3%;
+    width: 12%;
+    border: 0;
+    background-color: #fff;
+    font-size: 15px;
+}
+.ajout{
+    margin-top: 8%;
+    padding: 4%;
+    width: 100%;
+    background-color: #A238FF;
+    color: white;
+    text-shadow: 0 0 10px white;
+    filter: drop-shadow(0 0 30px #A238FF);
+    border: 0;
+    outline: none;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s;
+
+
+}
+.ajout:hover{
+    opacity: 80%;
+}
+.ajout:active{
+    transform: translateY(7px);
+}
+.peitte{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 110%;
+
+}
+.peitte div{
+    margin-top: 10%;
+    border-bottom: 1px solid white;
+    width: 130%;
+}
+#infos{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+#plus{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 90%;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: -12%;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+#politique{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+}
+#plus2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 90%;
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: -10%;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+#livraison{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+}
+#plus3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 90%;
+    font-size: 27px;
+    font-weight: lighter;
+    margin-top: -12%;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+.border{
+    padding: 3%;
+    border: 2px solid white;
+    filter: drop-shadow(0 0 10px #A238FF);
+}
+.endessous{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    margin-bottom: 3%;
+}
+
